@@ -12,7 +12,6 @@ gardener-extension-os-coreos-alicloud:
             image: 'eu.gcr.io/gardener-project/gardener/extensions/os-coreos-alicloud'
             dockerfile: 'Dockerfile'
             target: gardener-extension-os-coreos-alicloud
-    steps: ~
   jobs:
     head-update:
       traits:

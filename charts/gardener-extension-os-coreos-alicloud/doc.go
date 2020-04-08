@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:generate ../../vendor/github.com/gardener/gardener-extensions/hack/generate-controller-registration.sh os-coreos-alicloud . ../../VERSION ../../example/controller-registration.yaml OperatingSystemConfig:coreos-alicloud
+//go:generate ../../vendor/github.com/gardener/gardener/extensions/hack/generate-controller-registration.sh os-coreos-alicloud . ../../VERSION ../../example/controller-registration.yaml OperatingSystemConfig:coreos-alicloud
 
 // Package chart enables go:generate support for generating the correct controller registration.
 package chart
